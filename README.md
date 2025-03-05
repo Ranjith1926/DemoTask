@@ -28,4 +28,4 @@ npm start
 
 5. Run tests:
 
-npm test
+npm test or npx react-scripts test
