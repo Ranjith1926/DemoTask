@@ -1,0 +1,127 @@
+#login-container {
+    /* background-image: url('../Assets/Images/star-sky.jpg'); */
+    background-size: cover;
+    background-image: linear-gradient(#327577, #005a5d);
+    background-attachment: fixed;
+    background-position: center;
+    min-width: 100%;
+    min-height: 100vh;
+    font-size: 1em @767px 0.8em;
+
+    .login-form-container {
+        color: var(--black);
+        width: 32.5em @400 90%;
+        padding: 3.5em 0 3.5em 0;
+        background-color: white;
+        border-radius: 0.5em;
+
+
+        .login-form {
+            width: 90%;
+
+            .name {
+                font-weight: 600;
+                font-size: @767px 1.5em !important;
+                padding-bottom: 0.8em;
+                text-align: center;
+
+
+            }
+
+            .content {
+                line-height: 1.45em;
+                text-align: center;
+
+            }
+
+            .field {
+                width: 100%;
+                margin-bottom: 1em @767px 1.5em;
+
+                label {
+                    font-size: @767px 1em;
+                }
+
+                div {
+                    background-color: var(--white);
+                }
+            }
+
+            .fieldNew {
+                width: 100%;
+
+                label {
+                    font-size: @767px 1em;
+                }
+            }
+
+            .user-name-field {
+                border: 1px solid var(--grey);
+                border-radius: 7px;
+                width: 100%;
+            }
+
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+
+            .password-field {
+                width: 100%;
+
+                label {
+                    font-size: @767px 1em;
+                }
+
+                div {
+                    height: 3.5em;
+                    background-color: var(--white);
+                }
+            }
+
+            .password-label {
+                color: var(--grey);
+            }
+
+            .invalidUser {
+                color: var(--orangish-red);
+                font-size: 0.9em;
+                margin-top: 1em;
+            }
+
+            .submit-button {
+                height: 3.3em @767px 4.5em;
+                width: 100%;
+                font-size: 0.9em;
+                background-color: var(--black);
+                font-weight: bold;
+                border: none;
+                border-radius: 4px;
+                color: var(--white);
+                margin: .5em 0em;
+                padding: 0.625em 0;
+            }
+
+            .user-name {
+                color: var(--grey);
+            }
+
+            .error-message {
+                color: var(--orangish-red);
+                font-size: 0.8em @766px 0.9em;
+            }
+
+            .forgotbtn {
+                font-size: 1em;
+                font-weight: 500;
+                cursor: pointer;
+                text-align: center;
+
+                .btn {
+                    color: var(--grey);
+                }
+            }
+        }
+    }
+}

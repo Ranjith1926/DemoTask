@@ -1,0 +1,26 @@
+.not-found {
+    margin: 5em;
+
+    .main {
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .logo-img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .title {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+        }
+
+        .link {
+            color: var(--black);
+            border-bottom: 1px solid black;
+            font-weight: 700;
+        }
+    }
+}

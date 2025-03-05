@@ -1,0 +1,43 @@
+@import './variables.css';
+@import './mixin.css';
+@import './typography.css';
+@import './grid.css';
+@import './flex.css';
+@import './margin-padding.css';
+@import './checkmark.css';
+@import './margin-padding.css';
+@import './border.css';
+@import './color.css';
+@import './background.css';
+@import './slider.css';
+@import './theme.css';
+@import './header-footer.css';
+@import './input-container.css';
+@import './common.css';
+@import './container.css';
+@import './input.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-y: scroll;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+@media print {
+    #root {
+        display: none;
+    }
+
+    #modal {
+        display: none;
+    }
+}

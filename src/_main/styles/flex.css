@@ -1,0 +1,64 @@
+.flex {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-stretch {
+  align-items: stretch;
+}
+
+.flex-vert-center {
+  align-items: center;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-jus-center {
+  justify-content: center;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-one {
+  flex: 1;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.flex-self-center {
+  align-self: center;
+}
+
+@for $i from var(--from) to var(--to) {
+  .flex-$i {
+    flex: 0$ (i);
+  }
+}

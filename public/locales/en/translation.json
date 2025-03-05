@@ -1,0 +1,9 @@
+{
+  "login_title": "Tender",
+  "login_empno": "User Name",
+  "login_password": "Password",
+  "login_btn": "LOGIN",
+  "register": "Click here to register!",
+  "registerBtn": "REGISTER",
+  "name": "Name"
+}

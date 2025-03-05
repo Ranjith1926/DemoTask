@@ -1,0 +1,17 @@
+.bg-white { background-color: var(--white) }
+.bg-gray { background-color: var(--gray) }
+.bg-light-gray { background-color: var(--gray-light) }
+
+.bg-bray { background-color: var(--bray) }
+.bg-bray-dark { background-color: var(--bray-dark) }
+.bg-bray-medium { background-color: var(--bray-medium) }
+.bg-bray-light { background-color: var(--bray-light) }
+
+.bg-whitish { background-color: var(--whitish) }
+.bg-primary { background-color: var(--primary) }
+.bg-quamarine { background-color: var(--quamarine) }
+.bg-black { background-color: var(--black) }
+.bg-lgreen { background-color: var(--lightgreen) }
+.bg-lorange { background-color: var(--ligthtorange) }
+
+

@@ -1,0 +1,9 @@
+.alert {
+  left: 1em !important;
+  right: 0 !important;
+  bottom: 6em !important;
+  justify-content: center !important;
+  div {
+    background-color: Var(--primary);
+  }
+}

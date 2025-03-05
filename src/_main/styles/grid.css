@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+}
+.grid-wrap {
+  height: 100%;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: 70px auto;
+}
+.full-row {
+  grid-column: 1 / -1;
+}
+.center-v {
+  align-items: center;
+}
+.center-h {
+  justify-content: center
+}

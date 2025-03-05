@@ -1,0 +1,29 @@
+.input-container {
+    .name-input {
+        line-height: 1em;
+        display: block;
+        position: relative;
+        padding-top: 6px;
+        .title {
+            color: var(--gray);
+            position: absolute;
+            padding: 0.1em;
+            display: inline-block;
+            font-size: 1em;
+            background-color: #fff;
+            white-space: nowrap;
+            top: 0;
+            left: 1em;
+        }
+        .child-input {
+            font-size: 0.9em;
+            border-radius: var(--border-radius-light);
+            border: 1px solid var(--black);
+            background-color: #fff;
+            width: 100%;
+            height: 41px;
+            outline: none;
+            padding: 1.5em;
+        }
+    }
+}

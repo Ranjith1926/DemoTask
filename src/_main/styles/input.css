@@ -1,0 +1,26 @@
+.mui-button-add {
+    background-color: var(--real-grey) !important;
+    color: var(--white) !important;
+    margin: 1em 0 !important;
+    font-weight: 500 !important;
+    border-radius: 5px !important;
+    text-transform: uppercase !important;
+}
+
+.noData {
+    height: 8em;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+.tab {
+    display: none @920 flex;
+}
+
+/* .desktop {
+    display: @920 none;
+} */

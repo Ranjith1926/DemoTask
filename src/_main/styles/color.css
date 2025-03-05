@@ -1,0 +1,51 @@
+.cr-white {
+    color: var(--white)
+}
+
+.cr-gray {
+    color: var(--gray)
+}
+
+.cr-light-gray {
+    color: var(--gray-light)
+}
+
+.cr-bray {
+    color: var(--bray)
+}
+
+.cr-bray-dark {
+    color: var(--bray-dark)
+}
+
+.cr-bray-medium {
+    color: var(--bray-medium)
+}
+
+.cr-bray-light {
+    color: var(--bray-light)
+}
+
+.cr-whitish {
+    color: var(--whitish)
+}
+
+.cr-primary {
+    color: var(--primary)
+}
+
+.cr-quamarine {
+    color: var(--quamarine)
+}
+
+.cr-black {
+    color: var(--black)
+}
+
+.cr-lgreen {
+    color: var(--lightgreen)
+}
+
+.cr-lorange {
+    color: var(--ligthtorange)
+}
